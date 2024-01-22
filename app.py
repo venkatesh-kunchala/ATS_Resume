@@ -4,7 +4,9 @@ import os
 import PyPDF2 as pdf
 from dotenv import load_dotenv
 
+
 load_dotenv() ## load all our environment variables
+
 
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
